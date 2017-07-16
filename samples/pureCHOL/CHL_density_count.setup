@@ -1,0 +1,12 @@
+pdb_filename = "/home/external/odnCHLsynt/odnCHLsynt_001.pdb"
+xtc_filename = "/home/external/odnCHLsynt/xodnCHLsynt_100ns_200ns.xtc"
+begin_frame = 0
+end_frame = -1
+bin_count = 173
+groups = {
+    "CHL": ["CHL"],
+    "SOL": ["SOL"],
+    "OG": ["OG"],
+    "SOL+OG": ["SOL", "OG"],    
+}
+output_dir = "samples/pureCHOL/output"
